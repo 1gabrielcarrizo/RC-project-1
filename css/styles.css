@@ -21,6 +21,7 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-color: var(--dark);
 }
 
 /* -------------- NAVBAR -------------- */
@@ -53,7 +54,7 @@ footer{
     margin-top: auto;
     padding: 1.5em 0;
     width: 100%;
-    background-color: white;
+    background-color: var(--grey);
 }
 
 /*
