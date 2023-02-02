@@ -62,7 +62,83 @@
     </header>
     <!-- MAIN -->
     <main>
-        pagina login
+        <div class="container w-75 bg-secondary my-3 rounded">
+            <div class="row">
+                <!-- IMAGEN -->
+                <div class="col bg-dark d-none d-lg-block img-container rounded-left">
+                </div>
+                <!-- FORMULARIO -->
+                <div class="col bg-white p-3 rounded">
+                    <div class="text-end">
+                        <img src="../assets/icons/logo.png" alt="logo" width="40">
+                    </div>
+                    <h2 class="text-center fw-bold">Bienvenidos</h2>
+                    <form action="error404.html">
+                        <div class="mb-4">
+                            <label for="email" class="form-label">Correo electronico</label>
+                            <input type="email" class="form-control" name="email" id="email" required>
+                        </div>
+                        <div>
+                            <label for="password" class="form-label">Password</label>
+                            <input type="password" class="form-control" name="password" id="password" required>
+                        </div>
+                        <div class="mb-4 form-check">
+                            <input type="checkbox" class="form-check-input" name="connected" id="connected">
+                            <label for="connected" class="form-check-label">Mantenerme conectado</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Iniciar sesion</button>
+                        <div class="my-1">
+                            <span>No tienes cuenta? <a href="error404.html" class="font-weight-bold a-register">Registrate</a></span>
+                            <div>
+                                <span>
+                                    <!-- Button trigger modal -->
+                                    <a href="#" class="font-weight-bold a-password" type="button" data-bs-toggle="modal"
+                                    data-bs-target="#staticBackdrop2">¿Olvidaste tu password?</a>
+                            </span>
+                            </div>
+                        </div>
+                    </form>
+                    <!-- LOGOS DE REDES SOCIALES -->
+                    <div class="container w-100 my-5">
+                        <div class="row text-center">
+                            <div class="col-12 mb-3">
+                                Iniciar sesion con
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <button class="btn btn-outline-primary w-100 my-1">
+                                    <a href="https://www.facebook.com/" class="a" target="_blank">
+                                        <div class="row align-items-center">
+                                            <div class="col-md-12 d-none d-md-block">
+                                                <img src="../assets/icons/facebook-logo.webp" alt="facebook-logo" width="32">
+                                            </div>
+                                            <div class="col-12 col-md-10 text-center mx-auto">
+                                                Facebook
+                                            </div>
+                                        </div>
+                                    </a>
+                                </button>
+                            </div>
+                            <div class="col">
+                                <button class="btn btn-outline-danger w-100 my-1">
+                                    <a href="https://www.google.com/" class="a" target="_blank">
+                                        <div class="row align-items-center">
+                                            <div class="col-md-12 d-none d-md-block">
+                                                <img src="../assets/icons/google-logo.webp" alt="google-logo" width="32">
+                                            </div>
+                                            <div class="col-12 col-md-10 text-center mx-auto">
+                                                Google
+                                            </div>
+                                        </div>
+                                    </a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
     <!-- FOOTER -->
     <footer class="text-center">
@@ -116,30 +192,52 @@
     </footer>
 
     <!-- Modal -->
-    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static"
-    data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
-    aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="staticBackdropLabel">Se el primero en enterarte</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                    aria-label="Close"></button>
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Se el primero en enterarte</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <form action="error404.html">
+                    <div class="modal-body">
+                        Suscríbete para recibir las ultimas novedades sobre los lanzamientos de los ultimos juegos más
+                        populares.
+                        <input type="email" class="form-control mt-2" id="exampleFormControlInput1"
+                            placeholder="Dirección de correo electrónico" required>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Cerrar</button>
+                        <button type="submit" class="btn btn-outline-primary">Suscribirse</button>
+                    </div>
+                </form>
             </div>
-            <form action="error404.html">
-                <div class="modal-body">
-                    Suscríbete para recibir las ultimas novedades sobre los lanzamientos de los ultimos juegos más populares.
-                    <input type="email" class="form-control mt-2" id="exampleFormControlInput1" placeholder="Dirección de correo electrónico" required>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-outline-danger"
-                    data-bs-dismiss="modal">Cerrar</button>
-                    <button type="submit" class="btn btn-outline-primary">Suscribirse</button>
-                </div>
-            </form>
         </div>
     </div>
-</div>
+
+    <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">¿Contraseña olvidada?</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <form action="error404.html">
+                    <div class="modal-body">
+                        Escribe tu correo electronico y te enviaremos un link para que puedas crear una nueva.
+                        <input type="email" class="form-control mt-2" id="exampleFormControlInput1"
+                            placeholder="Dirección de correo electrónico" required>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Cerrar</button>
+                        <button type="submit" class="btn btn-outline-primary">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 
 
     <!-- js bootstrap -->

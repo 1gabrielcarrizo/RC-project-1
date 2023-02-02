@@ -1,13 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
-:root{
-    --dark: #212529;
-    --blue: #00ADB5;
-    --grey: #393E46;
+:root {
+  --dark: #212529;
+  --blue: #00ADB5;
+  --grey: #393E46;
 }
 
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
 *:focus,
@@ -16,61 +16,61 @@
   -webkit-tap-highlight-color: transparent;
 }
 
-body{
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    background-color: var(--dark);
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: var(--dark);
 }
 
-img{
+/* img {
   max-width: 100%;
-}
+} */
 
 /* -------------- NAVBAR -------------- */
-.nav-link{
-    background-color: var(--blue);
+.nav-link {
+  background-color: var(--blue);
 }
 
-.active{
-    background-color: var(--grey);
+.active {
+  background-color: var(--grey);
 }
 
 /* como se veran los botones a partir de 992px o mas.. */
-@media screen and (min-width: 992px){
-    .nav-item{
-        margin-left: 0.5em;
-        margin-right: 0.5em;
-    }
+@media screen and (min-width: 992px) {
+  .nav-item {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+  }
 }
 
 /* como se veran los botones a partir de 992px o menos.. */
-@media screen and (max-width: 992px){
-    .nav-item{
-        margin-top: 0.5em;
-    }
+@media screen and (max-width: 992px) {
+  .nav-item {
+    margin-top: 0.5em;
+  }
 }
 
 /* -------------- FOOTER -------------- */
 
-footer{
-    margin-top: auto;
-    padding: 1.5em 0;
-    width: 100%;
-    background-color: var(--grey);
+footer {
+  margin-top: auto;
+  padding: 1.5em 0;
+  width: 100%;
+  background-color: var(--grey);
 }
 
 /*
     Auther: Abdelrhman Said
 */
 
-a{
-    color: #212529;
+a {
+  color: #212529;
 }
 
-a:hover{
-    color: white;
+a:hover {
+  color: white;
 }
 
 .wrapper {
@@ -168,36 +168,56 @@ a:hover{
 }
 
 /* como se veran los botones a partir de 992px o menos.. */
-@media screen and (max-width: 575px){
-    .div-padding{
-        padding-top: 0.5em;
-        padding-bottom: 0.5em;
-    }
+@media screen and (max-width: 575px) {
+  .div-padding {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+  }
 }
 
 /* -------------- PAGINA PRINCIPAL -------------- */
 
 /* CAROUSEL */
-.img-carousel{
+.img-carousel {
   height: 50vh;
   object-fit: cover;
 }
 
 /* -------------- PAGINA GALERIA -------------- */
 
-.gallery{
+.gallery {
   margin: 1rem;
   columns: 4 240px;
   column-gap: 0.5em;
 }
 
-.gallery-img{
+.gallery-img {
   max-width: 100%;
   margin-bottom: 0.5em;
   display: block;
 }
 
-.gallery-img:hover{
+.gallery-img:hover {
   outline: 2px solid #fff;
   outline-offset: -10px;
+}
+
+/* -------------- PAGINA LOGIN -------------- */
+
+.img-container {
+  background-image: url(../assets/gallery/game30.webp);
+  background-position: center center;
+  background-size: cover;
+  width: 100vh;
+}
+
+.a-register,
+.a-password,
+.a-register:hover,
+.a-password:hover{
+  color: #1877F2;
+}
+
+.a{
+  text-decoration: none;
 }
