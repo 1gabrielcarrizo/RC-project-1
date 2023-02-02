@@ -52,18 +52,6 @@ img{
     }
 }
 
-
-/* CAROUSEL */
-.img-carousel{
-  height: 50vh;
-  /* background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; */
-  /* object-position: center; */
-  object-fit: cover;
-}
-
 /* -------------- FOOTER -------------- */
 
 footer{
@@ -185,4 +173,31 @@ a:hover{
         padding-top: 0.5em;
         padding-bottom: 0.5em;
     }
+}
+
+/* -------------- PAGINA PRINCIPAL -------------- */
+
+/* CAROUSEL */
+.img-carousel{
+  height: 50vh;
+  object-fit: cover;
+}
+
+/* -------------- PAGINA GALERIA -------------- */
+
+.gallery{
+  margin: 1rem;
+  columns: 4 240px;
+  column-gap: 0.5em;
+}
+
+.gallery-img{
+  max-width: 100%;
+  margin-bottom: 0.5em;
+  display: block;
+}
+
+.gallery-img:hover{
+  outline: 2px solid #fff;
+  outline-offset: -10px;
 }
