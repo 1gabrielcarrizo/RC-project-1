@@ -1,5 +1,7 @@
 :root{
     --dark: #212529;
+    --blue: #00ADB5;
+    --grey: #393E46;
 }
 
 *{
@@ -8,4 +10,27 @@
 
 body{
     margin: 0;
+}
+
+.nav-link{
+    border: 1px solid blue;
+}
+
+.active{
+    background-color: var(--grey);
+}
+
+/* como se veran los botones a partir de 992px o mas.. */
+@media screen and (min-width: 992px){
+    .nav-item{
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+    }
+}
+
+/* como se veran los botones a partir de 992px o menos.. */
+@media screen and (max-width: 992px){
+    .nav-item{
+        margin-top: 0.5em;
+    }
 }
