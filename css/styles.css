@@ -24,6 +24,10 @@ body{
     background-color: var(--dark);
 }
 
+img{
+  max-width: 100%;
+}
+
 /* -------------- NAVBAR -------------- */
 .nav-link{
     background-color: var(--blue);
@@ -46,6 +50,18 @@ body{
     .nav-item{
         margin-top: 0.5em;
     }
+}
+
+
+/* CAROUSEL */
+.img-carousel{
+  height: 50vh;
+  /* background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+  /* object-position: center; */
+  object-fit: cover;
 }
 
 /* -------------- FOOTER -------------- */
