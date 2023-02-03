@@ -290,7 +290,6 @@ a:hover {
 }
 
 .parallax{
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../assets/gallery/game3.webp");
   min-height: 100vh;
   background-attachment: fixed;
   background-position: top;
@@ -298,6 +297,42 @@ a:hover {
   background-size: cover;
   margin-top: .6em;
   margin-bottom: .6em;
+}
+
+.parallax-1{
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../assets/gallery/game3.webp");
+}
+
+.parallax-2{
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../assets/gallery/game22.webp");
+}
+
+.parallax-3{
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../assets/gallery/game2.webp");
+}
+
+.parallax-4{
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../assets/gallery/game4.webp");
+}
+
+.parallax-5{
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../assets/gallery/game6.webp");
+}
+
+.parallax-6{
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../assets/gallery/game17.webp");
+}
+
+.parallax-7{
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../assets/gallery/game19.webp");
+}
+
+.parallax-8{
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../assets/gallery/game29.webp");
+}
+
+.parallax-9{
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../assets/gallery/game27.webp");
 }
 
 .comentario-padre{
