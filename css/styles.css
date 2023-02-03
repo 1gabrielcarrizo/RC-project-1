@@ -232,16 +232,19 @@ a:hover {
 
 .contact{
   background-color: white;
+  border-radius: 8px;
 }
 
 .textarea{
   width: 100%;
+  resize: none;
 }
 
 .btn-contact{
   width: 100%;
 }
 
+/* como se veran el contacto a partir de 575px o menos.. */
 @media screen  and (max-width: 575px){
   .contact{
     margin-left: 0.5em;
@@ -250,5 +253,32 @@ a:hover {
 
   .btn-contact{
     margin-bottom: 0.8em;
+  }
+}
+
+/* -------------- PAGINA PRINCIPAL -------------- */
+
+.principal-search{
+  width: 100%;
+}
+
+.list-group-item,
+.text-hidden{
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.list-group-item:hover{
+  background-color: var(--blue);
+}
+
+.publicity{
+  max-width: 100%;
+}
+
+/* como se vera la publicidad a partir de 480px o menos.. */
+@media screen  and (max-width: 480px){
+  .div-publicity{
+    display: none;
   }
 }
