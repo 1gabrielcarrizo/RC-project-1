@@ -221,3 +221,34 @@ a:hover {
 .a{
   text-decoration: none;
 }
+
+/* -------------- PAGINA NOSOTROS -------------- */
+
+.card{
+  max-width: 100%;
+}
+
+/* -------------- PAGINA CONTACTO -------------- */
+
+.contact{
+  background-color: white;
+}
+
+.textarea{
+  width: 100%;
+}
+
+.btn-contact{
+  width: 100%;
+}
+
+@media screen  and (max-width: 575px){
+  .contact{
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+  }
+
+  .btn-contact{
+    margin-bottom: 0.8em;
+  }
+}

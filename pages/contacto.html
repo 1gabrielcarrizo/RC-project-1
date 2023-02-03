@@ -62,7 +62,46 @@
     </header>
     <!-- MAIN -->
     <main>
-        pagina contacto
+        <div class="container">
+            <div class="row my-5 contact py-2">
+                <div class="col-sm">
+                    <!-- from -->
+                    <form action="error404.html">
+                        <div class="form-row">
+                            <div class="col mb-3">
+                                <label for="validationDefault01">Nombre</label>
+                                <input type="text" class="form-control" id="validationDefault01" required>
+                            </div>
+                            <div class="col mb-3">
+                                <label for="validationDefault02">Apellido</label>
+                                <input type="text" class="form-control" id="validationDefault02" required>
+                            </div>
+                            <div class="col mb-3">
+                                <label for="validationDefault03">Ciudad</label>
+                                <input type="text" class="form-control" id="validationDefault03" required>
+                            </div>
+                            <div class="col mb-3">
+                                <label for="validationDefault04" class="d-block">Comentario</label>
+                                <textarea class="textarea" name="" id="validationDefault04" required></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="form-check mt-4">
+                                <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                                <label class="form-check-label" for="invalidCheck2">
+                                    Aceptar los terminos y condiciones
+                                </label>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary btn-contact mt-5" type="submit">Enviar</button>
+                    </form>
+                </div>
+                <div class="col-sm">
+                    <!-- map -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3264.610163194224!2d-65.20857552158638!3d-26.837326471064227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225d3ad7f30f1d%3A0xf8606cd659b8e3e4!2sRollingCode%20School!5e0!3m2!1ses-419!2sar!4v1675380065946!5m2!1ses-419!2sar" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
     </main>
     <!-- FOOTER -->
     <footer class="text-center">
@@ -116,30 +155,29 @@
     </footer>
 
     <!-- Modal -->
-    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static"
-    data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
-    aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="staticBackdropLabel">Se el primero en enterarte</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                    aria-label="Close"></button>
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Se el primero en enterarte</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <form action="error404.html">
+                    <div class="modal-body">
+                        Suscríbete para recibir las ultimas novedades sobre los lanzamientos de los ultimos juegos más
+                        populares.
+                        <input type="email" class="form-control mt-2" id="exampleFormControlInput1"
+                            placeholder="Dirección de correo electrónico" required>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Cerrar</button>
+                        <button type="submit" class="btn btn-outline-primary">Suscribirse</button>
+                    </div>
+                </form>
             </div>
-            <form action="error404.html">
-                <div class="modal-body">
-                    Suscríbete para recibir las ultimas novedades sobre los lanzamientos de los ultimos juegos más populares.
-                    <input type="email" class="form-control mt-2" id="exampleFormControlInput1" placeholder="Dirección de correo electrónico" required>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-outline-danger"
-                    data-bs-dismiss="modal">Cerrar</button>
-                    <button type="submit" class="btn btn-outline-primary">Suscribirse</button>
-                </div>
-            </form>
         </div>
     </div>
-</div>
 
 
     <!-- js bootstrap -->
