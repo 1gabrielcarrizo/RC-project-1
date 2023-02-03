@@ -289,19 +289,34 @@ a:hover {
   max-width: 100%;
 }
 
-/* Parallax  */
-.parallax {
+.parallax{
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../assets/gallery/game3.webp");
-  min-height: 400px;
+  min-height: 100vh;
   background-attachment: fixed;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-top: .6em;
+  margin-bottom: .6em;
 }
 
-.card-img-overlay {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.comentario-padre{
+  border: 1px solid royalblue;
+}
+
+.comentario-img{
+  border: 1px solid red;
+  max-width: 200px;
+}
+
+.comentario-texto{
+  border: 1px solid green;
+}
+
+/* como se veran los comentarios a partir de 4992px o mas.. */
+@media screen  and (min-width: 4992px){
+  .comentario{
+    list-style: none;
+    width: 700px;
+  }
 }
