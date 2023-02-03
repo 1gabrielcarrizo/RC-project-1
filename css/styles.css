@@ -282,3 +282,26 @@ a:hover {
     display: none;
   }
 }
+
+/* -------------- PAGINA POSTS -------------- */
+
+.video-post{
+  max-width: 100%;
+}
+
+/* Parallax  */
+.parallax {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../assets/gallery/game3.webp");
+  min-height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-img-overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
