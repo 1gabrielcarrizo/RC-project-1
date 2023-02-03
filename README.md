@@ -19,4 +19,4 @@ Este proyecto fue re-creado, con la finalidad de practicar lo que se vio en todo
 + Pagina de detalle sobre cada entrada del blog
 
 ## Demo
-[Rolling Store](https://1gabrielcarrizo.github.io/RC-project-1/)
+[Rolling Games](https://1gabrielcarrizo.github.io/RC-project-1/)
