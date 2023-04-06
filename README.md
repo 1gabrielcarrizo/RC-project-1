@@ -19,5 +19,5 @@ Este proyecto fue re-creado, con la finalidad de practicar lo que se vio en todo
 + Pagina de detalle sobre cada entrada del blog
 
 ## Demo
-[Rolling Games](https://1gabrielcarrizo.github.io/RC-project-1/) deployado en github
-[Rolling Games](https://rolling-games-2023.netlify.app/) deployado en netlify
++ [Rolling Games](https://1gabrielcarrizo.github.io/RC-project-1/) deployado en github
++ [Rolling Games](https://rolling-games-2023.netlify.app/) deployado en netlify
